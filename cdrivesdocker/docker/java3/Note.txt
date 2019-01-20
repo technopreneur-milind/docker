@@ -1,0 +1,1 @@
+Add following to pom.xml inside <docker.image.prefix>springio</docker.image.prefix>

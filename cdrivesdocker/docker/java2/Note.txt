@@ -1,0 +1,11 @@
+vi DockerFile
+docker build --tag "docker-java2:latest"
+
+docker run docker-java1
+
+docker tag docker-java1 milindtechnopreneur/docker-java:java1
+
+docker login  
+(milindtechnopreneur/passwd)
+docker push milindtechnopreneur/docker-java:java1
+
